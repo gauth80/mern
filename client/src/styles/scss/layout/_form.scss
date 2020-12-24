@@ -1,0 +1,8 @@
+//=3 formulaires
+.form.inscription {
+  @extend %formulaire;
+
+  input {
+    @extend %input;
+  }
+}

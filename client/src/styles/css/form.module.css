@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson&family=Permanent+Marker&family=Russo+One&display=swap");
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0; }
+
+/*
+  @param(color + background-color)
+  hover && active
+  $snow + $red = AAA
+  $snow + $blue = AAA
+*/
+.text-imp {
+  color: #871A1A; }
+
+.text-sec {
+  color: #27478c; }
+
+input {
+  border-top-left-radius: 15px 33px;
+  border-top-right-radius: 35px 62px;
+  border-bottom-left-radius: 26px 98px;
+  border-bottom-right-radius: 41px 153px; }

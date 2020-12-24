@@ -1,0 +1,95 @@
+{
+  "_note" : "stack charger",
+  "language" : [
+    {
+      "name" : "HTML",
+      "value" : 90
+    },
+    {
+      "name" : "CSS",
+      "value" : 80
+    },
+    {
+     "name" : "Sass / Less",
+     "value" : 50
+    },
+    {
+      "name" : "JS (es6)",
+      "value" : 60
+    },
+    {
+      "name" : "JSX",
+      "value" : 50
+    },
+    {
+      "name" : "PHP (7.2)",
+      "value" : 60
+    },
+    {
+      "name" : "SQL",
+      "value" : 60
+    },
+    {
+      "name" : "NoSQL",
+      "value" : 30
+    }
+  ],
+  "framework" : [
+    {
+      "name" : "Boostraps",
+      "value" : 80
+    },
+    {
+      "name" : "CodeIgniter",
+      "value" : 65
+    },
+    {
+      "name" : "Material UI",
+      "value" : 50
+    },
+    {
+      "name" : "ExpressJS",
+      "value" : 40
+    }
+  ],
+  "librairy" : [
+    {
+      "name" : "Jquery",
+      "value" : 50
+    },
+    {
+      "name" : "ReactJS",
+      "value" : 65
+    }
+  ],
+  "databases" : [
+    {
+      "name" : "MySQL",
+      "value" : 65
+    },
+    {
+      "name" : "MongoDB",
+      "value" : 40
+    }
+   ],
+  "languageTiers" : [
+    {
+      "name" : "ejs",
+      "value" : 70
+   },
+    {
+      "name" : "pug / jade",
+      "value" : 50
+    },
+    {
+      "name" : "htm (Node Atlas)",
+      "value" : 50
+    }
+  ],
+  "Devops" : [
+    {
+      "name" : "Git",
+      "value" : 80
+    }
+  ]
+}

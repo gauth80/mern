@@ -1,0 +1,56 @@
+.btn-success {
+  @extend %success;
+  @extend %button;
+}
+.btn-danger {
+  @extend %danger;
+  @extend %button;
+}
+.btn-mono {
+  @extend %monochrome;
+  @extend %button;
+}
+.btn-neon {
+  @extend %monochrome;
+  @extend %button;
+  border-color:$red;
+  &:hover {
+    box-shadow:0 0 18px -5px $red;
+    @include prefix(transform, scale(1.05),webkit moz o ms);
+  }
+
+  &:active {
+    @include prefix(transform, scale(1),webkit moz o ms);
+  }
+}
+
+.btn-arrow {
+  @extend %button;
+  transition:border-color 1s;
+
+  .arrow_btn-arrow {
+    @extend %arrow;
+    margin:20px 30px;
+    transform:translate(-50%,-50%) rotate(-45deg);
+
+      &__inverse {
+        @extend %arrow;
+        margin:0 30px;
+        transform: rotate(135deg);
+      }
+
+    &, &__inverse {
+      transition:border-color .5s;
+
+      &:hover {
+        border-color:cyan;
+      }
+    }
+
+  }
+
+  &:last-child {
+    display:inline-block;
+  }
+
+}

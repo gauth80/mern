@@ -1,0 +1,46 @@
+//<!> si sass ne compile pas les fichiers, le code se lit séquentiellement
+@import '_config.scss';
+@import './scss/grid.scss';
+
+@import './scss/base/_font.scss',
+        './scss/base/_color.scss';
+
+@import './scss/logic/_mixins.scss',
+        './scss/logic/_placeholders.scss';
+
+@import './scss/layout/_footer.scss',
+        './scss/layout/_form.scss',
+        './scss/layout/_navbar.scss',
+        './scss/layout/_wrap.scss';
+
+@import './scss/components/_buttons.scss',
+        './scss/components/_card.scss',
+        './scss/components/_diapo.scss',
+        './scss/components/_sections.scss';
+
+@import './scss/pages/_home.scss';
+
+//temporaires
+.helper {
+  @extend %help;
+  background-color:$darken;
+  color:invert($darken);
+}
+
+.switch__animate  {
+  transition:all 1s;
+  opacity:1;
+  & > .container {
+    opacity:.5;
+  }
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+.page {
+    opacity: 1;
+  transform: scale(1);
+  transition:all 1s;
+}

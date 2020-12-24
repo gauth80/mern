@@ -1,0 +1,29 @@
+{
+  "section" : {
+    "wrap" : "wrap container row col-sm-12"
+  },
+  "subInfo" :
+  {
+    "wrap" : "row offset-xs-0 offset-sm-2 col-xs-12 col-sm-8 py-3 info",
+    "article" : "row offset-1 col-10 py-3 infoSub",
+    "sub" : "row offset-xs-0 offset-sm-2 col-xs-12 col-sm-8 infoSub",
+    "title": "offset-sm-1 col-xs-12 col-sm-11 py-3 xs-center",
+    "link" : "offset-sm-1 col-12 col-sm-11",
+    "txt" : "col-11 col-sm-7 mb-3 xs-center"
+  },
+  "form" : {
+    "wrap" : "row offset-0 offset-sm-2 p-xs-2 p-sm-5 col-xs-12 col-sm-8 mt-xs-0 mt-sm-10 form inscription",
+    "boxLeft" : "col-xs-12 col-sm-12 col-lg-8 row",
+    "boxRight" : "d-none d-lg-block col-lg-4",
+    "cell" : "row my-3 col-12 col-md-10",
+    "btn" : {
+      "isActive" : "col-4 col-md-3 p-2 btn-neon",
+      "disabled" : "col-4 col-md-3 p-2 btn-neon shade"
+    }
+  },
+  "card" : {
+    "maxSize" : "fluid",
+    "wrap" : "row offset-1 col-10 card",
+    "legend" : "row col-12 text_card area_card p-3 my-2"
+  }
+}

@@ -1,0 +1,10 @@
+
+.card {
+  .text_card {
+    @extend %paragraphe;
+  }
+  .area_card {
+    border-top:2px dotted gray;
+    border-bottom:2px dotted gray;
+  }
+}

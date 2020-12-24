@@ -1,0 +1,26 @@
+//=X indépendants
+.info, .infoSub {
+  background:#111111d6;
+  &Sub {
+    border-top:2px dotted gray;
+  }
+  h2,h3 {
+    font-family:Times New Roman, arial;
+    font-weight:400;
+    font-size:1.5rem;
+    color:white;
+  }
+  p {
+    @extend %paragraphe;
+  }
+  a {
+    text-decoration:none;
+    color:gray;
+    font-size:inherit;
+    transition:all 1s;
+    &:hover {
+      color:white;
+    }
+  }
+
+}

@@ -1,0 +1,45 @@
+{
+	"languages": [{
+		"html": 16,
+		"CSS": 16,
+		"JS": 16,
+		"PHP": 16,
+		"Java": 1,
+		"C#": 1,
+		"Python": 1,
+		"SQL": 15,
+		"PostgreSQL": 2,
+		"TypeScript": 1
+	}],
+	"tech": [{
+		"SASS": 1,
+		"Less": 1,
+		"MODX": 1,
+		"IONIC": 2,
+		"Zend": 2,
+		"ASPNET": 1,
+		"Symfony": 2,
+		"NodeJS": 3,
+		"React": 1,
+		"VueJS": 2
+	}],
+	"cms": [{
+		"Wordpres": 15,
+		"Typo3": 3,
+		"PrestaShop": 5,
+		"Joomla": 2,
+		"Umbraco": 1,
+		"SPIP": 1,
+		"Thelia": 1,
+		"Drupal": 1
+	}],
+	"platforms": [{
+		"E-monSite": 1,
+		"Shopify": 1,
+		"Magento": 3,
+		"Android": 1
+	}],
+	"autre": [{
+		"php": 1
+	}]
+}

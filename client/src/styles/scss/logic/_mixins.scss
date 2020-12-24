@@ -1,0 +1,7 @@
+//prefixer
+@mixin prefix($props, $value, $prefixes: (webkit moz o ms) ) {
+  @each $prefixe in $prefixes {
+    #{'-'+$prefixe+'-'+$props}:$value;
+  }
+  #{$props}:$value;
+}

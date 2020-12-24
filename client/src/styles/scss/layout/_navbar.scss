@@ -1,0 +1,25 @@
+
+//  =1 Navbar
+.navbar {
+  background-color:#141414;
+  .box_navbar {
+    position:relative;
+    .list_box {
+      list-style-type:none;
+      display:block;
+      width:max-content;
+      .link_list {
+        color:white;
+        text-decoration:none;
+        letter-spacing:2px;
+      }
+    }
+    .shade {
+      transition:all .3s;
+      opacity:.4;
+    }
+  }
+  &,.box_navbar{
+    padding:5px;
+  }
+}

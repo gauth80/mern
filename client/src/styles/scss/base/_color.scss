@@ -1,0 +1,29 @@
+//use checker wcag2
+$darken: #333;
+$violet : #DB0A5B;
+$skyblue:#25AEEB;
+$yellowgreen:#7FFF35;
+$green:#47d547bf;
+$red:#e22b2b;
+$snow:#F3F4CF;
+$blue:#27478c;
+
+//compositions
+%monochrome {
+  color:$snow;
+  background-color:transparent;
+}
+%success {
+  color:$snow;
+  background-color:darken($blue,5);
+}
+%danger {
+  color:$snow;
+  background-color:darken($red,5);
+}
+.red {
+  color:$red;
+}
+.blue {
+  color:$blue;
+}

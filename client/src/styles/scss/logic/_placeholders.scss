@@ -1,0 +1,91 @@
+@import '../../_config.scss';
+@import '../base/color.scss';
+
+
+//buttons
+%button {
+  border-radius:4px;
+  cursor:grab;
+  padding:5px;
+  text-transform:uppercase;
+  @include prefix(transition, all .3s,webkit moz o ms);
+}
+//flèches
+%arrow {
+  display:block;
+  width:30px;
+  height:30px;
+  border-top:5px solid #27478c;
+  border-left:5px solid #27478c;
+}
+
+%formulaire {
+  font-size:1.5rem;
+  padding:5rem;
+  color:white;
+  background:#111111d6;
+  fieldset {
+    border:none;
+    //need placeholder wrap
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  input {
+    transition:all 1s;
+    transition-timing-function:ease-in-out;
+    line-height:2rem;
+    text-indent:1rem;
+    letter-spacing:1px;
+    font-size:.9rem;
+    color:inherit;
+    width:100%;
+    border:none;
+    background:transparent;
+  }
+}
+
+%input {
+  &:invalid {
+    border-bottom:2px solid $red;
+  }
+  &:valid {
+    border-bottom:2px solid $green;
+  }
+  &:focus {
+    border-bottom:2px solid $snow;
+  }
+}
+
+//Img
+%resetBackrground {
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover!important;
+}
+
+// paragraphe
+%paragraphe {
+  font-family: Tahoma,arial;
+  color: #8f9090;
+  line-height: 2rem;
+  text-indent: 1rem;
+  letter-spacing: 1px;
+  font-size: .9rem;
+}
+
+//border
+%border_soft {
+  border-radius:12.5px;
+}
+%border_feuille {
+  border-radius:0 12.5px 0 12.5px;
+}
+
+%help {
+  //sert de point de repère lors de creation de component
+  padding:20px;
+  margin:10px;
+  border-radius:0 12.5px 0 12.5px;
+  width:200px;
+}
